@@ -1,4 +1,4 @@
-/********** Generic Styling **********/
+/********** GENERIC Styling **********/
 
 * {
   box-sizing: border-box;
@@ -7,23 +7,21 @@
   padding:0;
 }
 
+body {
+  font-size: 100%;
+}
+
 h1 {
+  margin: 60px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 section {
   border: 1px solid black;
-  padding: 20px;
-  background-color: #C0C0C0;
   position: relative;
-
-  /* this is the only property that aligns the blocks properly,
-  but doesn't  allow for margins */
-  /* margin: auto; */
-  margin: 15px;
-
+  padding-top: 40px;
+  background-color: #808080; /* gey background */
+  margin: 10px;
 }
 
 p {
@@ -31,34 +29,38 @@ p {
   position: absolute;
   top:0;
   right:0;
-  margin-bottom: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: large;
+  width: 150px;
+  height: 35px;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.5em;
   font-weight: bold;
-
 }
 
 .menu-text {
-  margin-top: 15px;
+  margin: 10px;
+  font-size: 1.1em;
 }
 
 #chicken {
-  background-color: #FF9999;
+  background-color:  #FFCCCC;  /* pink background */
 }
 
 #beef {
-  background-color: #CC6600;
+  background-color: #990000;
+  color: #FFFFFF; /* make font color white, since backgroung is red */
 }
 
 #sushi {
-  background-color: #FFFFCC;
+  background-color: #FFCC99; /* tan background */
 }
 
 
 .row {
   width: 100%;
 }
+
+/********** MEDIA Styling **********/
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
